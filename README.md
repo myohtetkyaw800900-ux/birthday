@@ -46,17 +46,17 @@ http://localhost:5173
 ```
 ## Folder Structure
 ```
-|-- BirthdayAi
-|--node_modules
-|--Touse
+|-- public
+|   |-- BirthdayAi
+|   |-- Touse
+|   |-- Untitled.glb
+|   |-- Untitled1.glb
 |--index.html
 |--main.js
 |--style.css
 |--package-lock.json
 |--package.json
 |--README.md
-|--Untitled.glb
-|--Untitled1.glb
 ```
 
 > Production Build
@@ -64,4 +64,10 @@ http://localhost:5173
 ``` 
 npm run build
 
-```# birthday
+```
+
+> Preview Production Build (local)
+
+```bash
+npm run preview
+```

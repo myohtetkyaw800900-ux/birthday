@@ -10,7 +10,7 @@
 <body>
     <div class="main-container">
         <audio id="audio">
-            <source src="Touse/happy.m4a">
+            <source src="/Touse/happy.m4a">
         </audio>
         <div class="header">
             <nav class="navbar">
@@ -45,25 +45,25 @@
                     <div class="banner" id="banner">
                         <div id="flower" class="flower"></div>
                         <div class="slider" style="--quantity: 10">
-                            <div class="photo-item" style="--position: 1"><img src="BirthdayAi/i.jpg" /></div>
-                            <div class="photo-item" style="--position: 2"><img src="BirthdayAi/i1.jpg" /></div>
-                            <div class="photo-item" style="--position: 3"><img src="BirthdayAi/i2.jpg" /></div>
-                            <div class="photo-item" style="--position: 4"><img src="BirthdayAi/i3.jpg" /></div>
-                            <div class="photo-item" style="--position: 5"><img src="BirthdayAi/i4.jpg" /></div>
-                            <div class="photo-item" style="--position: 6"><img src="BirthdayAi/i5.jpg" /></div>
-                            <div class="photo-item" style="--position: 7"><img src="BirthdayAi/i6.jpg" /></div>
-                            <div class="photo-item" style="--position: 8"><img src="BirthdayAi/i7.jpg" /></div>
-                            <div class="photo-item" style="--position: 9"><img src="BirthdayAi/i8.jpg" /></div>
-                            <div class="photo-item" style="--position: 10"><img src="BirthdayAi/i9.jpg" /></div>
+                            <div class="photo-item" style="--position: 1"><img src="/BirthdayAi/i.jpg" /></div>
+                            <div class="photo-item" style="--position: 2"><img src="/BirthdayAi/i1.jpg" /></div>
+                            <div class="photo-item" style="--position: 3"><img src="/BirthdayAi/i2.jpg" /></div>
+                            <div class="photo-item" style="--position: 4"><img src="/BirthdayAi/i3.jpg" /></div>
+                            <div class="photo-item" style="--position: 5"><img src="/BirthdayAi/i4.jpg" /></div>
+                            <div class="photo-item" style="--position: 6"><img src="/BirthdayAi/i5.jpg" /></div>
+                            <div class="photo-item" style="--position: 7"><img src="/BirthdayAi/i6.jpg" /></div>
+                            <div class="photo-item" style="--position: 8"><img src="/BirthdayAi/i7.jpg" /></div>
+                            <div class="photo-item" style="--position: 9"><img src="/BirthdayAi/i8.jpg" /></div>
+                            <div class="photo-item" style="--position: 10"><img src="/BirthdayAi/i9.jpg" /></div>
                         </div>
                     </div>
                     <div class="smoot-album">
                         <div class="img-con">
-                            <div class="a-item a-active"><img src="BirthdayAi/m1.jpg" alt="Her img!" width="250" /></div>
-                            <div class="a-item"><img src="BirthdayAi/m2.jpg" alt="Her img!" width="250" /></div>
-                            <div class="a-item"><img src="BirthdayAi/m3.jpg" alt="Her img!" width="250" /></div>
-                            <div class="a-item"><img src="BirthdayAi/m4.jpg" alt="Her img!" width="250" /></div>
-                            <div class="a-item"><img src="BirthdayAi/m5.jpeg" alt="Her img!" width="250" /></div>
+                            <div class="a-item a-active"><img src="/BirthdayAi/m1.jpg" alt="Her img!" width="250" /></div>
+                            <div class="a-item"><img src="/BirthdayAi/m2.jpg" alt="Her img!" width="250" /></div>
+                            <div class="a-item"><img src="/BirthdayAi/m3.jpg" alt="Her img!" width="250" /></div>
+                            <div class="a-item"><img src="/BirthdayAi/m4.jpg" alt="Her img!" width="250" /></div>
+                            <div class="a-item"><img src="/BirthdayAi/m5.jpeg" alt="Her img!" width="250" /></div>
                         </div>
                     </div>
 
@@ -97,15 +97,6 @@ Happy 20nd Birthday.
         </div>
         <canvas class="canvas" id="confetti-canvas"></canvas>
     </div>
-    <script type="importmap">
-        {
-            "imports": {
-                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
-                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
-            }
-        }
-    </script>
-
     <script type="module">
         import * as THREE from 'three';
         import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -295,9 +286,9 @@ Happy 20nd Birthday.
 
         animate();
         }
-        module3d("info", "Untitled.glb");
-        module3d("flower", "Untitled1.glb", true);
+        module3d("info", "/Untitled.glb");
+        module3d("flower", "/Untitled1.glb", true);
     </script>
-    <script src="main.js"></script>
+    <script type="module" src="/main.js"></script>
 </body>
 </html>

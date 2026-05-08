@@ -66,10 +66,10 @@ resizeCanvas();
    IMAGES
 ====================== */
 const imgPaths = [
-  "BirthdayAi/i5.jpg",
-  "BirthdayAi/i4.jpg",
-  "BirthdayAi/i.jpg",
-  "BirthdayAi/i9.jpg",
+  "/BirthdayAi/i5.jpg",
+  "/BirthdayAi/i4.jpg",
+  "/BirthdayAi/i.jpg",
+  "/BirthdayAi/i9.jpg",
 
 //   "Touse/h11.jpg",
 //   "Touse/v2.jpg"
